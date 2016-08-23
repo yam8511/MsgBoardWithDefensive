@@ -10,6 +10,7 @@
     <div class="w3-card-4">
         <?= Form::open(['name'=>'registerForm','action'=>'register','method'=>'post', 'onsubmit' => 'return validate()']) ?>
         <div class="w3-form  w3-margin ">
+            <?= Form::csrf() ?>
             <?= Form::label("帳戶",'username',['class'=>'w3-label']) ?>
             <?= Form::input('username', Session::get_flash('username'), ['class'=>'w3-input w3-hover-border-cyan','placeholder'=>'您的帳戶名稱','required']) ?>
             <p id="hint_username" class="hint"><?= Session::get_flash('hint_username') ?></p>

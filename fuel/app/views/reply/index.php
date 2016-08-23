@@ -13,8 +13,12 @@
         <?php $index = 0; foreach( $msg->replies as $rpl ): ?>
         <li class="w3-container <?= $bg[($index++) % 2] ?>">
             <div class="w3-container">
-                <span class="w3-large"><a style="text-decoration: none;" href="/view/<?= $rpl->user_id ?>"><?= $rpl->user($rpl->user_id)->username ?></a></span>　　
-                <span class="w3-small w3-text-grey"><?= $msg->updated_at ? date('Y-m-d H:i:s',$msg->updated_at) : date('Y-m-d H:i:s',$msg->created_at) ?></span><br>
+                <?php if($customer = $rpl->user($rpl->user_id)) { ?>
+                    <span class="w3-large"><?= HTML::anchor('/view/'.$customer->id, $customer->username, ['style' => 'text-decoration:none;']) ?></span>
+                <?php } else { ?>
+                    <span class="w3-large"><a style="text-decoration: none;" >Guest</a></span>
+                <?php } ?>
+                    <span class="w3-small w3-text-grey"><?= $msg->updated_at ? date('Y-m-d H:i:s',$msg->updated_at) : date('Y-m-d H:i:s',$msg->created_at) ?></span><br>
                 <span><?= nl2br($rpl->message) ?></span>
             </div>
             <!-- 修改&刪除按鈕 -->
@@ -37,7 +41,7 @@
 </div>
 
 <!-- 回覆輸入 -->
-<form action="<?= $root ?>reply" method="post" accept-charset="UTF-8">
+<form action="reply" method="post" accept-charset="UTF-8">
     <div class="w3-row-padding">
         <div class="w3-col m10">
             <?php if($login) { ?>

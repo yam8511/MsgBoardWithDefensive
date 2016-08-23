@@ -1,5 +1,4 @@
-<?php $root = '/'; ?>
-<a class="w3-btn w3-btn-floating  w3-green" href="<?= $root ?>"><i class="fa fa-mail-reply"></i></a>
+<?= Html::anchor('/', '<i class="fa fa-mail-reply"></i>', ['class' => 'w3-btn w3-btn-floating  w3-green']); ?>
 <?= Form::open(['name'=>'addMessage','action'=>'add','method'=>'post', 'enctype' => 'multipart/form-data', 'class' => 'w3-form w3-border w3-border-teal w3-margin']); ?>
     <label class="w3-label">標題</label>
     <input type="text" name="title" class="w3-input w3-hover-border-cyan" placeholder="輸入主題" required>

@@ -64,6 +64,14 @@ class Controller_User extends Controller_Template
 		$password = Input::post('password');
 		$remember = Input::post('remember');
 
+		// 檢查 CSRF 符記是否有效
+		if ( ! \Security::check_token())
+		{
+			// CSRF 攻擊或過期的 CSRF 符記
+			Session::set_flash('failed','登入失敗，驗證無效');
+			return Response::redirect_back('/');
+		}
+
 		if (Auth::login($username, $password)) {
 			if($remember) {
 				Auth::remember_me();
@@ -71,7 +79,6 @@ class Controller_User extends Controller_Template
 				Auth::dont_remember_me();
 			}
 			Session::set_flash('success','登入成功:)');
-            return Response::redirect_back('/');
 		} else {
 			Session::set_flash('failed','登入失敗，請確認帳號密碼:(');
 		}

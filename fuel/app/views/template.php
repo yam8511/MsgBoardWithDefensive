@@ -46,14 +46,13 @@
         <h4 class="w3-padding-0"><b><?= Session::get('username') ? Session::get('username') : 'Guest' ?></b></h4>
         <p class="w3-text-grey">Template by W3.CSS</p>
     </div>
-    <?php $root = '/' ?>
-    <a href=<?= $root ?> class="w3-padding w3-text-teal"><i class="fa fa-home w3-xlarge"></i> 留言板</a>
+    <?= Html::anchor('/', '<i class="fa fa-home w3-xlarge"></i> 留言板', ['class' => 'w3-padding w3-text-teal']); ?>
     <?php if($login) { ?>
-        <a href="<?= $root ?>belong" class=" w3-text-teal w3-padding w3-hover-theme"><i class="fa fa-book w3-xlarge"></i> 我的留言</a>
-        <a href="<?= $root ?>logout" class=" w3-text-teal w3-padding w3-hover-theme"><i class="fa fa-sign-out  w3-xlarge"></i> 登出</a>
+        <?= Html::anchor('/belong', '<i class="fa fa-book w3-xlarge"></i> 我的留言', ['class' => 'w3-text-teal w3-padding w3-hover-theme']); ?>
+        <?= Html::anchor('/logout', '<i class="fa fa-sign-out  w3-xlarge"></i> 登出', ['class' => 'w3-text-teal w3-padding w3-hover-theme']); ?>
     <?php }else{ ?>
-        <a href="<?= $root ?>register" class=" w3-text-teal w3-padding w3-hover-theme"><i class="fa fa-user-plus w3-xlarge"></i> 註冊</a>
-        <a href="<?= $root ?>login" class=" w3-text-teal w3-padding w3-hover-theme"><i class="fa fa-sign-in  w3-xlarge"></i> 登入</a>
+        <?= Html::anchor('/register', '<i class="fa fa-user-plus w3-xlarge"></i> 註冊', ['class' => 'w3-text-teal w3-padding w3-hover-theme']); ?>
+        <?= Html::anchor('/login', '<i class="fa fa-sign-in  w3-xlarge"></i> 登入', ['class' => 'w3-text-teal w3-padding w3-hover-theme']); ?>
     <?php } ?>
 
 </nav>

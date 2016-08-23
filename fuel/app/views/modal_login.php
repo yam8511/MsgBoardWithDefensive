@@ -7,6 +7,7 @@
         <div class="w3-container">
             <?= Form::open(['name'=>'loginForm','action'=>'login','method'=>'post']) ?>
                 <div class="w3-form  w3-margin ">
+                    <?= Form::csrf() ?>
                     <?= Form::label("帳戶",'username',['class'=>'w3-label']) ?>
                     <?= Form::input('username', Session::get_flash('username'), ['class'=>'w3-input w3-hover-border-cyan','required', 'placeholder' => '輸入 帳戶名稱 或 Email']) ?>
                     <?= Form::label("密碼",'password',['class'=>'w3-label']) ?>

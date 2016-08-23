@@ -3,7 +3,7 @@
 return array(
 	'driver' => 'Simpleauth',
 	'verify_multiple_logins' => false,
-	'salt' => 'put_your_salt_here',
+	'salt' => 'CIq87GYH5Cwsqc4a',
 	'iterations' => 10000,
 );
 

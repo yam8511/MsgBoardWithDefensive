@@ -11,8 +11,9 @@
 <div class="w3-container">
 
     <div class="w3-card-4">
-        <?= Form::open(['name'=>'registerForm','action'=>'login','method'=>'post']) ?>
+        <?= Form::open(['name'=>'loginForm','action'=>'login','method'=>'post']) ?>
         <div class="w3-form  w3-margin ">
+            <?= Form::csrf() ?>
             <?= Form::label("帳號",'username',['class'=>'w3-label']) ?>
             <?= Form::input('username', Session::get_flash('username'), ['class'=>'w3-input w3-hover-border-cyan','required', 'placeholder' => '輸入 帳戶名稱 或 Email']) ?>
             <?= Form::label("密碼",'password',['class'=>'w3-label']) ?>
