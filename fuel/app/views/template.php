@@ -14,7 +14,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="/FuelphpMsgBoard/public/assets/img/404.png" />
+    <link rel="shortcut icon" <?=  array_to_attr(array('href' => Config::get('base_url').'assets/img/404.png'))?> />
     <title>Msgboard with FuelPHP</title>
 
     <?= Asset::css('w3.css') ?>

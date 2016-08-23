@@ -1052,3 +1052,99 @@ WARNING - 2016-08-23 18:18:57 --> Fuel\Core\Fuel::init - The configured locale e
 WARNING - 2016-08-23 18:18:58 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
 WARNING - 2016-08-23 18:19:17 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
 WARNING - 2016-08-23 18:19:17 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 22:34:40 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 22:34:51 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 22:35:18 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 22:35:49 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 22:36:08 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 22:36:13 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 22:36:14 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 22:36:15 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 22:36:18 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 22:36:21 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 22:36:21 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 22:36:26 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 22:36:26 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 22:36:27 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 22:54:31 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 22:57:59 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:00:52 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:01:03 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:01:27 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:01:27 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:01:28 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:01:28 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:01:29 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:01:29 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:01:31 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:01:32 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:05:07 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:05:09 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:05:10 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:06:04 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:06:05 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:06:05 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:06:35 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:15:10 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:15:28 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:15:29 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:15:59 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:15:59 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:16:41 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-23 23:16:41 --> Fatal Error - Call to a member function build() on string in C:\xampp\htdocs\Chungyo\MsgBoardWithDefensive\fuel\app\views\user\login.php on line 9
+WARNING - 2016-08-23 23:16:42 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-23 23:16:42 --> Fatal Error - Call to a member function build() on string in C:\xampp\htdocs\Chungyo\MsgBoardWithDefensive\fuel\app\views\user\login.php on line 9
+WARNING - 2016-08-23 23:16:54 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-23 23:16:54 --> Fatal Error - Call to a member function build() on string in C:\xampp\htdocs\Chungyo\MsgBoardWithDefensive\fuel\app\views\user\login.php on line 9
+WARNING - 2016-08-23 23:16:55 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-23 23:16:55 --> Fatal Error - Call to a member function build() on string in C:\xampp\htdocs\Chungyo\MsgBoardWithDefensive\fuel\app\views\user\login.php on line 9
+WARNING - 2016-08-23 23:19:58 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-23 23:19:59 --> Fatal Error - Call to undefined method Fuel\Core\Form::fieldset() in C:\xampp\htdocs\Chungyo\MsgBoardWithDefensive\fuel\app\views\user\login.php on line 17
+WARNING - 2016-08-23 23:19:59 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-23 23:19:59 --> Fatal Error - Call to undefined method Fuel\Core\Form::fieldset() in C:\xampp\htdocs\Chungyo\MsgBoardWithDefensive\fuel\app\views\user\login.php on line 17
+WARNING - 2016-08-23 23:19:59 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-23 23:20:00 --> Fatal Error - Call to undefined method Fuel\Core\Form::fieldset() in C:\xampp\htdocs\Chungyo\MsgBoardWithDefensive\fuel\app\views\user\login.php on line 17
+WARNING - 2016-08-23 23:20:07 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:27:24 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-23 23:27:24 --> Parsing Error - syntax error, unexpected 'forge' (T_STRING), expecting variable (T_VARIABLE) or '$' in C:\xampp\htdocs\Chungyo\MsgBoardWithDefensive\fuel\app\classes\controller\user.php on line 52
+WARNING - 2016-08-23 23:27:25 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-23 23:27:25 --> Parsing Error - syntax error, unexpected 'forge' (T_STRING), expecting variable (T_VARIABLE) or '$' in C:\xampp\htdocs\Chungyo\MsgBoardWithDefensive\fuel\app\classes\controller\user.php on line 52
+WARNING - 2016-08-23 23:27:33 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-23 23:27:33 --> Error - "name" is not a valid input type. in C:\xampp\htdocs\Chungyo\MsgBoardWithDefensive\fuel\core\classes\form\instance.php on line 217
+WARNING - 2016-08-23 23:27:34 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-23 23:27:34 --> Error - "name" is not a valid input type. in C:\xampp\htdocs\Chungyo\MsgBoardWithDefensive\fuel\core\classes\form\instance.php on line 217
+WARNING - 2016-08-23 23:28:14 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-23 23:28:14 --> Error - "name" is not a valid input type. in C:\xampp\htdocs\Chungyo\MsgBoardWithDefensive\fuel\core\classes\form\instance.php on line 217
+WARNING - 2016-08-23 23:28:14 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-23 23:28:14 --> Error - "name" is not a valid input type. in C:\xampp\htdocs\Chungyo\MsgBoardWithDefensive\fuel\core\classes\form\instance.php on line 217
+WARNING - 2016-08-23 23:28:29 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:29:01 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:29:35 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:29:46 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:29:47 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:29:47 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:29:54 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:30:21 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:30:32 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:31:25 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-23 23:31:25 --> Parsing Error - syntax error, unexpected 'echo' (T_ECHO) in C:\xampp\htdocs\Chungyo\MsgBoardWithDefensive\fuel\app\classes\controller\user.php on line 69
+WARNING - 2016-08-23 23:31:31 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:31:37 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:31:51 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:35:38 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:35:48 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:35:49 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:51:31 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-23 23:51:31 --> Notice - Undefined variable: form in C:\xampp\htdocs\Chungyo\MsgBoardWithDefensive\fuel\app\views\user\register.php on line 9
+WARNING - 2016-08-23 23:51:42 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-23 23:51:43 --> Notice - Undefined variable: form in C:\xampp\htdocs\Chungyo\MsgBoardWithDefensive\fuel\app\views\user\register.php on line 9
+WARNING - 2016-08-23 23:51:59 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:52:36 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:52:46 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:52:47 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:52:50 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-23 23:52:50 --> Error - Input for add_callable is not a valid object or class. in C:\xampp\htdocs\Chungyo\MsgBoardWithDefensive\fuel\core\classes\validation.php on line 260
+WARNING - 2016-08-23 23:52:54 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-23 23:53:01 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-23 23:53:01 --> Error - Input for add_callable is not a valid object or class. in C:\xampp\htdocs\Chungyo\MsgBoardWithDefensive\fuel\core\classes\validation.php on line 260
+WARNING - 2016-08-23 23:53:04 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.

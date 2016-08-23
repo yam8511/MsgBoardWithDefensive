@@ -6,10 +6,9 @@ return array (
     array (
       'default' => 
       array (
-        0 => '001_create_accounts',
-        1 => '002_create_msgboards',
-        2 => '003_create_uploads',
-        3 => '004_create_replies',
+        0 => '002_create_msgboards',
+        1 => '003_create_uploads',
+        2 => '004_create_replies',
       ),
     ),
     'module' => 

@@ -6,6 +6,7 @@
  * Time: 下午 04:54
  */
 ?>
+
 <div class="w3-container">
     <div class="w3-card-4">
         <?= Form::open(['name'=>'registerForm','action'=>'register','method'=>'post', 'onsubmit' => 'return validate()']) ?>
