@@ -24,26 +24,28 @@
             <?php } ?>
 
             <div class="w3-container">
-                <form action="<?= $root ?>edit_<?= $type ?>" method="post">
-                    <label class="w3-label">暱稱</label>
-                    <input class="w3-input w3-hover-border-cyan" type="text" name="name" value="<?= ($type == 'msg') ? $msg->user->username : $msg->user($msg->user_id)->username ?>"  placeholder="您的暱稱" readonly>
+                <?= Form::open(['name'=>'editForm','action'=>'/edit_'.$type, 'method'=>'post', 'class' => 'w3-form  w3-margin'], ['id' => $msg->id]) ?>
+                <?= Form::csrf() ?>
 
-                    <label class="w3-label">訊息</label>
-                    <textarea name="message" rows="6" class="w3-input w3-border w3-hover-border-cyan" style="resize: vertical" placeholder="輸入內容" required><?= $msg->message ?></textarea>
+                <?= Form::fieldset_open(array('class' => 'w3-input-group w3-border-0', 'name' => 'group_name')); ?>
+                <?= Form::label("暱稱",'name',['class'=>'w3-label']) ?>
+                <?= Form::input('name', ($type == 'msg') ? $msg->user->username : $msg->user($msg->user_id)->username, ['class'=>'w3-input w3-hover-border-cyan','required', 'placeholder' => '您的暱稱', 'readonly']) ?>
+                <?= Form::fieldset_close(); ?>
 
-                    <input type="hidden" name="_method" value="PUT">
-                    <input type="hidden" name="id" value="<?= $msg->id ?>">
-                    <br>
+                <?= Form::fieldset_open(array('class' => 'w3-input-group w3-border-0', 'name' => 'group_message')); ?>
+                <?= Form::label("訊息",',message',['class'=>'w3-label']) ?>
+                <?= Form::textarea('message', $msg->message, ['rows' => 6, 'style' => 'resize: vertical;', 'class'=>'w3-input w3-border w3-hover-border-cyan', 'placeholder' => '輸入內容', 'required']) ?>
+                <?= Form::fieldset_close(); ?>
+
                     <?php
                     $origin = str_replace("\r","",$msg->message);
                     $origin = str_replace("\n","<br>",$origin);
                     $origin = str_replace("'","\\'",$origin);
                     $origin = str_replace('"','\\"',$origin);
                     ?>
-                    <button class="w3-btn w3-round-large w3-red"><i class='fa
-                           fa-check'></i></button>
+                    <button class="w3-btn w3-round-large w3-red"><i class='fa fa-check'></i></button>
                     <a class="w3-btn w3-round-large w3-teal" onclick="cancel('<?= $modal_id ?>', '<?= $origin ?>')"><i class="fa fa-close"></i></a>
-                </form>
+                <?= Form::close() ?>
             </div>
         </div>
     </div>

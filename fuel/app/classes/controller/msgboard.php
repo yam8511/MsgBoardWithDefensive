@@ -37,8 +37,8 @@ class Controller_Msgboard extends Controller_Template
     public function post_add()
     {
         $msgboard = new Model_Msgboard();
-        $msgboard->title = Input::post('title');
-        $msgboard->message = Input::post('message');
+        $msgboard->title = Security::xss_clean(Input::post('title'));
+        $msgboard->message = Security::xss_clean(Input::post('message'));
             
         // Auth
         if(Auth::check()) {
@@ -96,8 +96,16 @@ class Controller_Msgboard extends Controller_Template
             return Response::redirect_back('/');
         }
 
-        $id = Input::post('id');
-        $message = Input::post('message');
+        // 檢查 CSRF 符記是否有效
+        if ( ! \Security::check_token())
+        {
+            // CSRF 攻擊或過期的 CSRF 符記
+            Session::set_flash('failed','編輯失敗，驗證無效，請重新編輯');
+            return Response::redirect_back('/');
+        }
+
+        $id = Security::xss_clean(Input::post('id'));
+        $message = Security::xss_clean(Input::post('message'));
         
         $msg = Model_Msgboard::find($id);
         if($msg) {
@@ -124,12 +132,20 @@ class Controller_Msgboard extends Controller_Template
 
 	public function post_deleteMessage()
 	{
+        // 檢查 CSRF 符記是否有效
+        if ( ! \Security::check_token())
+        {
+            // CSRF 攻擊或過期的 CSRF 符記
+            Session::set_flash('failed','刪除失敗，驗證無效，請重新刪除');
+            return Response::redirect_back('/');
+        }
+
         if(!Auth::check()) {
             Session::set_flash('warning', '請先登入');
             return Response::redirect_back('/');
         }
 
-        $id = Input::post('id');
+        $id = Security::xss_clean(Input::post('id'));
         $msg = Model_Msgboard::find($id);
 
         if($msg) {
@@ -195,7 +211,7 @@ class Controller_Msgboard extends Controller_Template
 
 	public function get_view()
 	{
-        $id = $this->param('id');
+        $id = Security::xss_clean($this->param('id'));
         if(!is_numeric($id)) {
             return Response::redirect_back('/');
         }
