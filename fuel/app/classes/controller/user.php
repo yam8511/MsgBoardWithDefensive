@@ -1,5 +1,7 @@
 <?php
 
+require "CaptchasDotNet.php";
+
 class Controller_User extends Controller_Template
 {
 
@@ -15,7 +17,7 @@ class Controller_User extends Controller_Template
 		}
 
 		$this->template->title = '加入會員';
-		$this->template->content = View::forge('user/register');
+		$this->template->content = View::forge('user/register', ['captchas' => new CaptchasDotNet('demo','secret')]);
 	}
 
 	public function post_register()
@@ -28,6 +30,10 @@ class Controller_User extends Controller_Template
 			return Response::redirect('/register');
 		}
 
+		$captchas = new CaptchasDotNet ('demo', 'secret');
+		$random_string = Input::post('random');
+		$captcha = Input::post('captcha');
+
 		// 避免有意的特殊HTML標籤
 		$username = Security::xss_clean(Input::post('username'));
 		$password = Security::xss_clean(Input::post('password'));
@@ -35,6 +41,20 @@ class Controller_User extends Controller_Template
 
 		Session::set_flash('username', $username);
 		Session::set_flash('email', $email);
+		// Check the random string to be valid and return an error message
+		// otherwise.
+		if (!$captchas->validate ($random_string))
+		{
+			Session::set_flash('failed', '網站系統錯誤');
+			return Response::redirect('/add');
+		}
+		// Check, that the right CAPTCHA password has been entered and
+		// return an error message otherwise.
+		if (!$captchas->verify ($captcha))
+		{
+			Session::set_flash('failed', '驗證碼錯誤');
+			return Response::redirect('/register');
+		}
 
 		// 制定輸入限制
 		$val = Validation::forge('register');

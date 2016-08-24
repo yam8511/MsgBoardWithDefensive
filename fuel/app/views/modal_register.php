@@ -4,6 +4,6 @@
             <span onclick="document.getElementById('modal_register').style.display='none'" class="w3-closebtn"><i class="fa fa-close"></i></span>
             <h2><i class="fa fa-user"></i>註冊</h2>
         </header>
-        <?= View::forge('user/register') ?>
+        <?= View::forge('user/register', ['captchas' => new CaptchasDotNet('demo','secret')]) ?>
     </div>
 </div>

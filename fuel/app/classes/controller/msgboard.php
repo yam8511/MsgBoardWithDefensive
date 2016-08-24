@@ -1,5 +1,7 @@
 <?php
 
+require "CaptchasDotNet.php";
+
 class Controller_Msgboard extends Controller_Template
 {
 	public function before(){
@@ -29,17 +31,44 @@ class Controller_Msgboard extends Controller_Template
 
 	public function get_add()
 	{
-		$data = ['login' => Auth::check() ];
+        $captchas = new CaptchasDotNet ('demo', 'secret');
+
+		$data = ['login' => Auth::check() , 'captchas' => $captchas ];
         $this->template->title = '留下訊息...';
         $this->template->content = View::forge('msgboard/add', $data);
 	}
 
     public function post_add()
     {
+        $captchas = new CaptchasDotNet ('demo', 'secret');
+        $random_string = Input::post('random');
+        $password = Input::post('captcha');
+
+        $title = Security::xss_clean(Input::post('title'));
+        $message = Security::xss_clean(Input::post('message'));
+
+        Session::set_flash('title', $title);
+        Session::set_flash('message', $message);
+
+        // Check the random string to be valid and return an error message
+        // otherwise.
+        if (!$captchas->validate ($random_string))
+        {
+            Session::set_flash('failed', '網站系統錯誤');
+            return Response::redirect('/add');
+        }
+        // Check, that the right CAPTCHA password has been entered and
+        // return an error message otherwise.
+        elseif (!$captchas->verify ($password))
+        {
+            Session::set_flash('failed', '驗證碼錯誤');
+            return Response::redirect('/add');
+        }
+
         $msgboard = new Model_Msgboard();
-        $msgboard->title = Security::xss_clean(Input::post('title'));
-        $msgboard->message = Security::xss_clean(Input::post('message'));
-            
+        $msgboard->title = $title;
+        $msgboard->message = $message;
+
         // Auth
         if(Auth::check()) {
             $msgboard->user_id = Auth::get('id');
@@ -76,7 +105,7 @@ class Controller_Msgboard extends Controller_Template
                 }
                 else{
                     Session::set_flash('failed','上傳圖片有誤');
-                    return Response::redirect('add');
+                    return Response::redirect('/add');
                 }
             }
 

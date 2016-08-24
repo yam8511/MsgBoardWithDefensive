@@ -504,3 +504,137 @@ WARNING - 2016-08-24 16:07:41 --> Fuel\Core\Fuel::init - The configured locale e
 WARNING - 2016-08-24 16:07:45 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
 WARNING - 2016-08-24 16:07:51 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
 WARNING - 2016-08-24 16:07:53 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 16:42:49 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 16:42:49 --> Compile Error - main(): Failed opening required '../CaptchasDotNet.php' (include_path='C:\xampp\htdocs\Test\fuel\vendor/phpseclib/phpseclib/phpseclib;C:\xampp\php\PEAR') in C:\xampp\htdocs\Test\fuel\app\classes\controller\msgboard.php on line 3
+WARNING - 2016-08-24 16:43:37 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 16:43:37 --> Error - Object class "CaptchasDotNet" could not be converted to string or sanitized as ArrayAccess. Whitelist it in security.whitelisted_classes in app/config/config.php to allow it to be passed unchecked. in C:\xampp\htdocs\Test\fuel\core\classes\security.php on line 268
+WARNING - 2016-08-24 16:43:39 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 16:43:39 --> Error - Object class "CaptchasDotNet" could not be converted to string or sanitized as ArrayAccess. Whitelist it in security.whitelisted_classes in app/config/config.php to allow it to be passed unchecked. in C:\xampp\htdocs\Test\fuel\core\classes\security.php on line 268
+WARNING - 2016-08-24 16:44:12 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 16:44:12 --> Error - Object class "CaptchasDotNet" could not be converted to string or sanitized as ArrayAccess. Whitelist it in security.whitelisted_classes in app/config/config.php to allow it to be passed unchecked. in C:\xampp\htdocs\Test\fuel\core\classes\security.php on line 268
+WARNING - 2016-08-24 16:44:12 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 16:44:13 --> Error - Object class "CaptchasDotNet" could not be converted to string or sanitized as ArrayAccess. Whitelist it in security.whitelisted_classes in app/config/config.php to allow it to be passed unchecked. in C:\xampp\htdocs\Test\fuel\core\classes\security.php on line 268
+WARNING - 2016-08-24 16:44:13 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 16:44:13 --> Error - Object class "CaptchasDotNet" could not be converted to string or sanitized as ArrayAccess. Whitelist it in security.whitelisted_classes in app/config/config.php to allow it to be passed unchecked. in C:\xampp\htdocs\Test\fuel\core\classes\security.php on line 268
+WARNING - 2016-08-24 16:45:21 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 16:45:21 --> Notice - Undefined property: CaptchasDotNet::$__random in C:\xampp\htdocs\Test\fuel\app\classes\controller\CaptchasDotNet.php on line 170
+WARNING - 2016-08-24 16:45:22 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 16:45:22 --> Notice - Undefined property: CaptchasDotNet::$__random in C:\xampp\htdocs\Test\fuel\app\classes\controller\CaptchasDotNet.php on line 170
+WARNING - 2016-08-24 16:47:07 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 16:47:08 --> Notice - Undefined property: CaptchasDotNet::$__random in C:\xampp\htdocs\Test\fuel\app\classes\controller\CaptchasDotNet.php on line 170
+WARNING - 2016-08-24 16:47:08 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 16:47:08 --> Notice - Undefined property: CaptchasDotNet::$__random in C:\xampp\htdocs\Test\fuel\app\classes\controller\CaptchasDotNet.php on line 170
+WARNING - 2016-08-24 16:48:43 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 16:48:44 --> Warning - mkdir(): No such file or directory in C:\xampp\htdocs\Test\fuel\app\classes\controller\CaptchasDotNet.php on line 81
+WARNING - 2016-08-24 16:48:44 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 16:48:44 --> Warning - mkdir(): No such file or directory in C:\xampp\htdocs\Test\fuel\app\classes\controller\CaptchasDotNet.php on line 81
+WARNING - 2016-08-24 16:49:06 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 16:49:06 --> Warning - mkdir(): No such file or directory in C:\xampp\htdocs\Test\fuel\app\classes\controller\CaptchasDotNet.php on line 81
+WARNING - 2016-08-24 16:49:07 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 16:49:07 --> Warning - mkdir(): No such file or directory in C:\xampp\htdocs\Test\fuel\app\classes\controller\CaptchasDotNet.php on line 81
+WARNING - 2016-08-24 16:49:07 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 16:49:08 --> Warning - mkdir(): No such file or directory in C:\xampp\htdocs\Test\fuel\app\classes\controller\CaptchasDotNet.php on line 81
+WARNING - 2016-08-24 16:51:33 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 16:51:33 --> Warning - mkdir(): No such file or directory in C:\xampp\htdocs\Test\fuel\app\classes\controller\CaptchasDotNet.php on line 81
+WARNING - 2016-08-24 16:51:34 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 16:51:34 --> Warning - mkdir(): No such file or directory in C:\xampp\htdocs\Test\fuel\app\classes\controller\CaptchasDotNet.php on line 81
+WARNING - 2016-08-24 16:53:38 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 16:56:19 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 16:57:43 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 16:57:59 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 16:58:13 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 16:58:41 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 16:59:04 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 16:59:27 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 16:59:28 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 16:59:29 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 16:59:34 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:00:54 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:00:55 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:00:56 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:00:57 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:00:58 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:00:59 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:01:00 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:01:01 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:01:02 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:01:02 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:01:03 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:01:06 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:01:07 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:01:07 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:01:08 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:01:22 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:01:23 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:01:28 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:05:54 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:05:56 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:05:57 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:05:57 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:05:59 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:06:27 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:06:27 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:06:33 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:06:37 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:06:37 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:06:48 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:08:21 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:08:21 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:08:26 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:09:16 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:09:20 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:09:20 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:09:26 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:09:28 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:09:48 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:09:49 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:09:50 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:09:52 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:09:53 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:17:27 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:25:39 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:25:39 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 17:25:39 --> Notice - Undefined variable: captchas in C:\xampp\htdocs\Test\fuel\app\views\user\register.php on line 41
+WARNING - 2016-08-24 17:25:48 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:25:50 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 17:25:50 --> Notice - Undefined variable: captchas in C:\xampp\htdocs\Test\fuel\app\views\user\register.php on line 41
+WARNING - 2016-08-24 17:27:23 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 17:27:23 --> Notice - Undefined variable: captchas in C:\xampp\htdocs\Test\fuel\app\views\user\register.php on line 41
+WARNING - 2016-08-24 17:27:24 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 17:27:24 --> Notice - Undefined variable: captchas in C:\xampp\htdocs\Test\fuel\app\views\user\register.php on line 41
+WARNING - 2016-08-24 17:27:25 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 17:27:25 --> Notice - Undefined variable: captchas in C:\xampp\htdocs\Test\fuel\app\views\user\register.php on line 41
+WARNING - 2016-08-24 17:27:25 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 17:27:25 --> Notice - Undefined variable: captchas in C:\xampp\htdocs\Test\fuel\app\views\user\register.php on line 41
+WARNING - 2016-08-24 17:27:26 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 17:27:26 --> Notice - Undefined variable: captchas in C:\xampp\htdocs\Test\fuel\app\views\user\register.php on line 41
+WARNING - 2016-08-24 17:27:27 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 17:27:27 --> Notice - Undefined variable: captchas in C:\xampp\htdocs\Test\fuel\app\views\user\register.php on line 41
+WARNING - 2016-08-24 17:28:38 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 17:28:38 --> Notice - Undefined property: CaptchasDotNet::$__random in C:\xampp\htdocs\Test\fuel\app\classes\controller\CaptchasDotNet.php on line 170
+WARNING - 2016-08-24 17:28:39 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 17:28:39 --> Notice - Undefined property: CaptchasDotNet::$__random in C:\xampp\htdocs\Test\fuel\app\classes\controller\CaptchasDotNet.php on line 170
+WARNING - 2016-08-24 17:29:17 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:29:25 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:29:28 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:29:32 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:29:36 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:29:39 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:30:03 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:30:14 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:30:17 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 17:30:17 --> Notice - Undefined variable: captchas in C:\xampp\htdocs\Test\fuel\app\views\user\register.php on line 12
+WARNING - 2016-08-24 17:31:06 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 17:31:06 --> Notice - Undefined variable: captchas in C:\xampp\htdocs\Test\fuel\app\views\user\register.php on line 12
+WARNING - 2016-08-24 17:31:07 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 17:31:07 --> Notice - Undefined variable: captchas in C:\xampp\htdocs\Test\fuel\app\views\user\register.php on line 12
+WARNING - 2016-08-24 17:31:43 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-24 17:31:43 --> Notice - Undefined variable: captchas in C:\xampp\htdocs\Test\fuel\app\views\user\register.php on line 12
+WARNING - 2016-08-24 17:32:05 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:32:07 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:32:08 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:32:09 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:32:11 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:32:23 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:33:06 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-24 17:33:06 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.

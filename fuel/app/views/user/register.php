@@ -9,8 +9,17 @@
 
 <div class="w3-container">
     <div class="w3-card-4">
-        <?= Form::open(['name'=>'registerForm','action'=>'/register','method'=>'post', 'onsubmit' => 'return validate()', 'class' => 'w3-form w3-margin']) ?>
+        <?= Form::open(['name'=>'registerForm','action'=>'/register','method'=>'post', 'onsubmit' => 'return validate()', 'class' => 'w3-form w3-margin'], ['random' => $captchas->random()]) ?>
             <?= Form::csrf() ?>
+
+            <?= Form::fieldset_open(array('class' => 'w3-input-group w3-border-0', 'name' => 'group_captcha')); ?>
+            <?= Form::label("我不是機器人",'captcha',['class'=>'w3-label']) ?>
+            <?= Form::input('captcha', '', ['class' => 'w3-input w3-hover-border-cyan', 'require' ]) ?>
+            <?= $captchas->image() ?>
+            <?= Html::anchor('/register', '<i class="fa fa-refresh w3-spin"></i>', ['class' => 'w3-btn-floating
+            w3-yellow'])
+            ; ?>
+            <?= Form::fieldset_close(); ?>
 
             <?= Form::fieldset_open(array('class' => 'w3-input-group w3-border-0', 'name' => 'group_username')); ?>
             <?= Form::label("帳戶",'username',['class'=>'w3-label']) ?>
