@@ -46,7 +46,7 @@ class Controller_User extends Controller_Template
 		if (!$captchas->validate ($random_string))
 		{
 			Session::set_flash('failed', '網站系統錯誤');
-			return Response::redirect('/add');
+			return Response::redirect('/register');
 		}
 		// Check, that the right CAPTCHA password has been entered and
 		// return an error message otherwise.
