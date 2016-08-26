@@ -50,6 +50,14 @@ class Controller_Msgboard extends Controller_Template
         Session::set_flash('title', $title);
         Session::set_flash('message', $message);
 
+        // 檢查 CSRF 符記是否有效
+        if ( ! \Security::check_token())
+        {
+            // CSRF 攻擊或過期的 CSRF 符記
+            Session::set_flash('failed','新增失敗，驗證無效，請重新刪除');
+            return Response::redirect_back('/');
+        }
+
         // Check the random string to be valid and return an error message
         // otherwise.
         if (!$captchas->validate ($random_string))

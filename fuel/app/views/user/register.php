@@ -29,12 +29,12 @@
 
             <?= Form::fieldset_open(array('class' => 'w3-input-group w3-border-0', 'name' => 'group_password')); ?>
             <?= Form::label("密碼",'password',['class'=>'w3-label']) ?>
-            <?= Form::input('password', '', ['class'=>'w3-input w3-hover-border-cyan','type'=>'password', 'placeholder' => '輸入7~30個數字']) ?>
+            <?= Form::input('password', '', ['class'=>'w3-input w3-hover-border-cyan','type'=>'password', 'placeholder' => '輸入7~30個數字', 'maxLength' => 30, 'minLength' => 7]) ?>
             <?= Form::fieldset_close(); ?>
 
             <?= Form::fieldset_open(array('class' => 'w3-input-group w3-border-0', 'name' => 'group_confirm')); ?>
             <?= Form::label("確認密碼",'confirm',['class'=>'w3-label']) ?>
-            <?= Form::input('confirm', '', ['class'=>'w3-input w3-hover-border-cyan','type'=>'password', 'placeholder' => '再次輸入密碼']) ?>
+            <?= Form::input('confirm', '', ['class'=>'w3-input w3-hover-border-cyan','type'=>'password', 'placeholder' => '再次輸入密碼', 'maxLength' => 30, 'minLength' => 7]) ?>
             <span id="hint_password" class="hint"></span>
             <?= Form::fieldset_close(); ?>
 

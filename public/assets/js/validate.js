@@ -12,6 +12,11 @@ function validate()
         document.getElementById('hint_password').innerHTML = '密碼輸入不一樣';
         OK = false;
     }
+    if(pass.value.length < 7 || pass.value.length > 30)
+    {
+        document.getElementById('hint_password').innerHTML = '密碼需再7~30個字數';
+        OK = false;
+    }
 
     var email = document.registerForm.email;
     if(!email.checkValidity()){
